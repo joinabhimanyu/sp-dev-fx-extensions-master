@@ -1,0 +1,47 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ihatetimemachines.sharepoint.com/sites/Extensions/Lists/Links/AllItems.aspx",
+      "fieldCustomizers": {
+        "Reorder": {
+          "id": "e6bdc269-2080-47b8-b096-e7bf2a9263a9",
+          "properties": {}
+        }
+      }
+    },
+    "spfxItemOrder": {
+      "pageUrl": "https://ihatetimemachines.sharepoint.com/sites/Extensions/Lists/Links/AllItems.aspx",
+      "fieldCustomizers": {
+        "Reorder": {
+          "id": "e6bdc269-2080-47b8-b096-e7bf2a9263a9",
+          "properties": {}
+        }
+      }
+    },
+    "customField": {
+      "pageUrl": "https://ihatetimemachines.sharepoint.com/sites/Extensions/Lists/Records/AllItems.aspx",
+      "fieldCustomizers": {
+        "Reorder": {
+          "id": "e6bdc269-2080-47b8-b096-e7bf2a9263a9",
+          "properties": {
+            "OrderField": "CustomOrder"
+          }
+        }
+      }
+    },
+    "text": {
+      "pageUrl": "https://ihatetimemachines.sharepoint.com/sites/Extensions/Lists/Links/AllItems.aspx",
+      "fieldCustomizers": {
+        "Reorder": {
+          "id": "e6bdc269-2080-47b8-b096-e7bf2a9263a9",
+          "properties": {
+            "ShowIcons": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "bf6645bd-42e4-4a30-aad7-6ff12d61fa1f",
+  "alias": "SpfxCloneCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "items": {
+    "spfxClone": {
+      "title": { "default": "Clone" },
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFbSURBVDhPtZOtTgNBEIBnb/cA0WS3FwiGhD4AAolE8AAIBALLGyARJBUIFApTX4HkARDICiQCUVHRkOve8dOkQEuXmWOOHHcLreFLNjc7/3s7Cz6SwBwkSvcSZRwtq0xslT5i82wwqJ+GepO3MIBoDXWjB1ipseqbgL8lxPnUiU4q9Xa6qBuBmvaEc61ViIfsMBuseJ0nwCN0WV3hlw7m538SdGF9yQE0JsIN398WXlFlnqG2/GX9iTeBlk9NgQkkBJ1Qjfsom4lSF2z+m4GKtugaixXp+hJp7gZS77HKD7atrDS3uWMxiS9xBSv1CTpdkozfNq4RJjzNjAh2cZbbK9Dk5RWyTnB8KYA6Ypfs53qPUm6dsEF9H+f/CnU7tI+l3qXB8h6l2LoPG9Y3KAgf2EsK2vBR2mxGBxzV4uMpw0H3WOgm32PMmGS8YlRI3XRCHJM8Nw5a0cfj4ScBDIzf6gQVQAAAAABJRU5ErkJggg==",
+      "type": "command"
+    }
+  }
+}
